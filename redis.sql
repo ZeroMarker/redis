@@ -4,6 +4,9 @@ GET mykey
 
 -- hash
 -- key field
+keys *
+keys user:*
+
 hget movie:719 title
 
 exists movie:3
